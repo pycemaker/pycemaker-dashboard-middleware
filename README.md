@@ -35,4 +35,5 @@ O Fluxo também realiza o envio de E-mails de alertas de criticidade caso a apli
         7. Add. 
 
         * Video Demonstrativo:
-        ![import_flow](./img/import_template.mp4)
+        https://github.com/pycemaker/pycemaker-etl-flow/blob/develop/img/import_template.mp4
+        https://user-images.githubusercontent.com/56441534/163399502-5a13cf57-681e-4948-a63d-2c3005122769.mp4
