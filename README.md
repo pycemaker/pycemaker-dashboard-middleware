@@ -19,7 +19,8 @@ O Fluxo também realiza o envio de E-mails de alertas de criticidade caso a apli
 
 * **Banco de dados**
     * Baixe e instale o banco de dados MongoDB:
-        * [MongoDB Community 5.0.7]("https://www.mongodb.com/try/download/community")
+        * [MongoDB Community 5.0.7]("https://www.mongodb.com/try/download/community"); e
+        * Crie um Database nomeado "Pycemaker".
 * **Nifi**
     * Baixe e instale o ambiente de desenvolvimento Python:
         * [Nifi 1.15.3]("https://nifi.apache.org/download.html")
@@ -34,6 +35,16 @@ O Fluxo também realiza o envio de E-mails de alertas de criticidade caso a apli
         6. Choose Template;
         7. Add. 
 
-        * Video Demonstrativo:
-        https://github.com/pycemaker/pycemaker-etl-flow/blob/develop/img/import_template.mp4
-        https://user-images.githubusercontent.com/56441534/163399502-5a13cf57-681e-4948-a63d-2c3005122769.mp4
+      * ### Video demonstrativo:
+
+      * #### Importação do template
+         https://user-images.githubusercontent.com/56441534/163399502-5a13cf57-681e-4948-a63d-2c3005122769.mp4
+         
+      * Atenção: Ao realizar a conexão com o MongoDB, lembre-se de alterar os parametros de conexão para o seu servidor Mongo:
+         *  ControllerService:
+            * ![ControllerService_mongo](./img/ControllerService_mongo.png)
+         *  PutMongo (Processor):
+            * ![putMongo](./img/putMongo.png)
+
+   * Por fim, basta executar o Fluxo:
+      * ![start](./img/start.png)
