@@ -22,7 +22,7 @@ O Fluxo também realiza o envio de E-mails de alertas de criticidade caso a apli
         * [MongoDB Community 5.0.7]("https://www.mongodb.com/try/download/community"); e
         * Crie um Database nomeado "Pycemaker".
 * **Nifi**
-    * Baixe e instale o ambiente de desenvolvimento Python:
+    * Baixe e instale o ambiente de desenvolvimento Nifi:
         * [Nifi 1.15.3]("https://nifi.apache.org/download.html")
 
 * **Execute a aplicação**
